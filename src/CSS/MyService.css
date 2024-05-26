@@ -1,0 +1,31 @@
+.my-service-body{
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    /* width: 50%; */
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0, 175, 181, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+   
+   
+}
+.myservice-flex{
+    width: 55%;
+    margin: auto;
+    margin-left: 35%; 
+    /* border: 1px solid red;    */
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    background-color: #00afb5;
+}
+#select-tag{
+    /* border: 1px solid red; */
+    padding: 10px 80px;
+    background-color: #00afb5;
+    border: 2px solid white;
+    margin-top: 2%;
+    color: white;
+}
+
+

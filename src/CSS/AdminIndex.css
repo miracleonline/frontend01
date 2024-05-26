@@ -1,0 +1,15 @@
+@media all and (min-width: 50px) and (max-width: 1500px){
+    li{
+        margin-top: 2%;
+        
+        width: 115px;
+        margin-left: -4%;
+    }
+    a{
+        font-size: 10px;
+    }
+    aside{
+        width: 38%;
+        height: 100vh;
+    }
+}

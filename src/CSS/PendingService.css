@@ -1,0 +1,49 @@
+.my-pending-service-body{
+    margin: auto;
+    /* margin-left: 35%; */
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+/* 
+    box-shadow: rgba(0, 0, 0, 0.16) 0, 175, 181, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+    */
+   
+}
+.pending-flex{
+    width: 100%;
+    margin: auto;
+    /* margin-top: 25%; */
+    /* margin-left: 35%;  */
+    /* border: 1px solid red;    */
+    display: flex;
+    color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    justify-content: space-evenly;
+    background-color: #00afb5;
+}
+/* #pending-select-tag{
+    padding: 10px 80px;
+    background-color: #00afb5;
+    border: 2px solid white;
+    margin-top: 2%;
+    color: white;
+} */
+/* .option-tag{
+    padding: 10px 80px; 
+} */
+
+.pending-main-body{
+    /* border: "1px solid red !important"; */
+     /* width:"30%"; */
+     margin-left: 33%;
+}
+
+/* .table-call-colour{
+  color: red;
+  border: 1px solid red;
+} */
+@media all and (min-width: 450px) and (max-width: 1500px){
+   .my-pending-service-body{
+    width: 100%;
+   }
+  
+}

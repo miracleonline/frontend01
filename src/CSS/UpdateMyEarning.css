@@ -1,0 +1,29 @@
+.update-my-carning-btn{
+  padding: 10px 25px ;
+  background-color: #00afbc;
+  color: white ;
+  font-weight: bolder;
+  border: 2px solid white;
+  margin-top: 3%;
+}
+.Current-mode{
+  margin-left: 8%;
+}
+
+#CardUpEarning-id{
+  width: 185%;
+  margin-left: 4%;
+}
+@media all and (min-width: 450px) and (max-width: 1500px){
+
+#CardUpEarning-id{
+  
+  width: 450px;
+  
+}
+.form-choise{
+  width: 100%
+ 
+}
+
+}

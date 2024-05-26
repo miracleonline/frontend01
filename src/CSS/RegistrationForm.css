@@ -1,0 +1,133 @@
+
+    
+    .signup-FormContainer{
+     /* border: 1px solid red; */
+    /* border: 5px solid #00afb5; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 60%;
+    /* height: 520px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ecf0f1;
+    }
+    
+    .InputContainer {
+    width: 100%;
+    padding: 10px;
+    }
+    .InputContainer>p {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    .InputContainer>input {
+      width: 95%;
+      height: 33px;
+      padding-left: 5px;
+      border-radius: 5px;
+      /* border: 1px solid lightgray; */
+      margin-top: 5px;
+    }
+    .InputContainer-nohover>input {
+      width: 95%;
+      height: 33px;
+      padding-left: 5px;
+      border-radius: 5px;
+      /* border: 1px solid lightgray; */
+      margin-top: 5px;
+      border: 1px solid red;
+    }
+    .InputContainer {
+      width: 100%;
+      padding: 10px;
+     
+      }
+
+    
+    
+    .SignUp-Button{
+        /* border: 1px solid red;  */
+          /* width: 100%;  */
+        /* height: 45px; */ 
+        padding: 8px 60px;
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        font-size: bolder;
+        background-color: #00afb5;
+        border-radius: 5px;
+        border: 0px;
+    
+    }
+    
+    .SignUp-Button:hover {
+      background-color: red;
+      border: 3px solid  #00afb5;
+      
+    }
+    
+ .InputContainer-div{
+  width: 100%;
+    padding: 10px;
+ }
+ .InputContainer-div{
+  width: 100%;
+    padding: 10px;
+ }
+ .InputContainer-div>p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media all and (min-width: 450px) and (max-width: 1500px){
+  .signup-Container{
+  display: flex;
+  }
+  .signup-FormContainer{
+    display: flex;
+  }
+  #regBtn{
+    font-size: 12px;
+  }
+ .signup-FormContainer{
+  width: 80%;
+  margin: auto;
+ }
+}
+
+
+/* registrationform */
+
+.registration-main-head{
+  /* border: 5px solid rgb(53, 19, 223); */
+  height: 80px;
+  background-color: white;
+  
+  /* width: 99%; */
+}
+
+.main-head-first-parent{
+  /* border: 5px solid rgb(53, 19, 223); */
+  background: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+}
+
+.new-signup-Container{
+  width: 80%;
+  min-width: 50px;
+  height: fit-content;
+  padding: 15px;
+  margin: auto;
+  /* margin-left: 20%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+ 
+  
+  }
+  .signup-FormContainer{
+    background: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+  }

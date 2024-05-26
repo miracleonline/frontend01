@@ -1,0 +1,32 @@
+.ListDiv{
+    
+  /* border: 1px solid red;  */
+  display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    grid-gap: 20px; 
+}
+.user-card{
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    /* justify-content:space-aroun; */
+    /* border: 1px solid red;  */
+    border:'dark';
+    width: 80%;
+}
+.user-card-p-Tag{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 500
+}
+
+.user-card-Name{
+    color: red;
+    font-weight: bold;
+}
+
+.CountrySelect-class{
+    padding: 6px 15px;
+    /* border: 1px solid red; */
+}
